@@ -1,16 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Assignment</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/51294d6610.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Poppins:wght@200;400;600;800&display=swap"
+      rel="stylesheet" />
+  
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
 <body>
-    <!-- About -->
+ <!--Start Home-->
+  <!-- start top nav-->
+  <div class="top-nav pt-2 bg-white fixed-top d-flex">
+    <div class="container d-flex justify-content-between align-items-center">
+      <address class="mb-0 d-flex align-items-center justify-content-center">
+        <i class="fa-regular fa-envelope" id="envelop"></i>
+        <a href="mailto:contact@example.com" class="text-decoration-none text-dark">contact@example.com</a>
+        <i class="fa-solid fa-mobile-screen-button ps-3"></i>
+        +1 5589 55488 55
+      </address>
+      <section class="d-none d-lg-block">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </section>
+    </div>
+    <!-- end top nav-->
+    <!-- start header-->
+    <header class="p-4 bg-white position-fixed">
+      <div class="container d-flex align-items-center">
+        <div class="logo me-auto">
+          <a href="index.html" class="text-decoration-none">MDF</a>
+        </div>
+        <nav class="navbar order-lg-0 d-lg-block navbar-mobile" style="flex-wrap: nowrap">
+          <ul class="hover list-unstyled d-flex m-0 p-0 align-items-center unorderList">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Service</a></li>
+            <li><a>Department</a></li>
+            <li><a>Doctor</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </nav>
+
+        <a class="apt-btn" href="#appointment">
+          <span class="d-none d-md-inline"> Make an </span> Appointment
+        </a>
+        <button class="humbergur">
+          <i class="fa-solid fa-bars order-last d-lg-none px-3"></i>
+        </button>
+        <button class="cross">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </header>
+    <!-- end header-->
+  </div>
+  <!-- start hero-->
+  <div class="hero">
+    <div class="container position-relative">
+      <h1>WELCOME TO MDF</h1>
+      <h4>We are team of talented designers making website with Boostrap</h4>
+      <button class="btn btn-primary px-4 bt">GET STARTED</button>
+    </div>
+  </div>
+  <!--end hero-->
+  <!--start why us section-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 align-items-stretch d-flex  p-4 bg-primary rounded">
+          <div class="content">
+            <h3 class="text-white mb-4">Why Choose MDF?</h3>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+              aute irure dolor in reprehenderit Asperiores dolores sed et.
+              Tenetur quia eos. Autem tempore quibusdam vel necessitatibus
+              optio ad corporis.
+            </p>
+            <button id="learn-more-btn" class="btn btn-primary px-4 bt mt-3">
+              Learn More
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-8 d-flex align-items-stretch">
+          <div class="d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="div col-xl-4 d-flex align-items-stretch">
+                <div class="mt-4 mt-lg-0 text-center why-card bg-white rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#1977cc"
+                      d="M21 11h-3V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v14c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3v-6a1 1 0 0 0-1-1zM5 19a1 1 0 0 1-1-1V5h12v13c0 .351.061.688.171 1H5zm15-1a1 1 0 0 1-2 0v-5h2v5z" />
+                    <path fill="#1977cc" d="M6 7h8v2H6zm0 4h8v2H6zm5 4h3v2h-3z" />
+                  </svg>
+
+                  <h4>Corporis voluptates sit</h4>
+                  <p>
+                    Consequuntur sunt aut quasi enim aliquam quae harum
+                    pariatur laboris nisi ut aliquip
+                  </p>
+                </div>
+              </div>
+              <div class="div col-xl-4 d-flex align-items-stretch">
+                <div class="mt-4 mt-lg-0 text-center why-card bg-white rounded">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#1977cc"
+                      d="M17.895 3.553A1.001 1.001 0 0 0 17 3H7c-.379 0-.725.214-.895.553l-4 8a1 1 0 0 0 0 .895l4 8c.17.338.516.552.895.552h10c.379 0 .725-.214.895-.553l4-8a1 1 0 0 0 0-.895l-4-7.999zM19.382 11h-7.764l-3-6h7.764l3 6zM4.118 12L7 6.236L9.882 12L7 17.764L4.118 12zm12.264 7H8.618l3-6h7.764l-3 6z" />
+                  </svg>
+                  <h4>Ullamco laboris ladore pan</h4>
+                  <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt
+                  </p>
+                </div>
+              </div>
+              <div class="div col-xl-4 d-flex align-items-stretch">
+                <div class="mt-4 mt-lg-0 text-center rounded why-card bg-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#1977cc"
+                      d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z" />
+                    <path fill="#1977cc" d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z" />
+                    <path fill="#1977cc" d="m12 12l-1-1l-2 3h10l-4-6z" />
+                  </svg>
+
+                  <h4>Labore consequatur</h4>
+                  <p>
+                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                    maiores omnis facere
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--end why us section-->
+  <!--End Home-->
+
+  <!--start About-->
         <section id="about" class="about">
             <div class="container-fluid">
                 <div class="row">
@@ -116,8 +262,8 @@
             </div>
         </section>
         <!-- End Counts Section -->
-
-        <!-- ======= Services Section ======= -->
+  <!--end  About -->
+        <!-- ======= start Services Section ======= -->
         <section id="services" class="services">
             <div class="container">
 
@@ -242,7 +388,8 @@
                 </div>
             </section>
             <!-- End Appointment Section -->
-
+ <!--end Service-->
+ 
             <script>
                 function animateValue(obj, start, end, duration) {
                 let startTimestamp = null;
@@ -268,5 +415,9 @@
             </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
 </body>
+
+
 </html>
