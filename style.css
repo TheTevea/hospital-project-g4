@@ -137,6 +137,7 @@ ul a:hover {
   display: block;
 }
 .close-btn{
+    cursor: pointer;
     font-size: 22px;
     position: fixed;
     top: 15px;
