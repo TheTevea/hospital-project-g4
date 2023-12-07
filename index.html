@@ -56,13 +56,13 @@
         <a href="index.html" class="text-decoration-none">MDF</a>
       </div>
       <nav class="navbar order-lg-0 d-lg-block navbar-mobile" style="flex-wrap: nowrap">
-        <ul class="hover list-unstyled d-flex m-0 p-0 align-items-center unorderList">
-          <li><a>Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Service</a></li>
-          <li><a>Department</a></li>
-          <li><a>Doctor</a></li>
-          <li><a>Contact</a></li>
+        <ul class="unorderList list-unstyled d-flex m-0 p-0 align-items-center">
+         <li><a class="active-menu" data-id="home" href="#">Home</a></li>
+          <li><a data-id="about" href="#about">About</a></li>
+          <li><a data-id="service" href="#service">Service</a></li>
+          <li><a data-id="department" href="#departments">Department</a></li>
+          <li><a data-id="doctor" href="#doctors">Doctor</a></li>
+          <li><a data-id="contact" href="#contact">Contact</a></li>
         </ul>
       </nav>
       <a class="apt-btn" href="#appointment">
@@ -208,7 +208,7 @@
     </div>
   </section>
   <!-- start count section -->
-  <section id="counts" class="counts">
+  <section id="service" class="counts">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -527,7 +527,7 @@
   </section>
   <!-- End Departments Section -->
   <!--  ------------------ doctor ------------------  -->
-  <section class="doctor">
+  <section id="doctors" class="doctor">
     <div class="container">
 
       <!-- header -->

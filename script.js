@@ -1,3 +1,25 @@
+// active menu
+
+const allMenu = document.querySelectorAll(".unorderList li a");
+    const menuContainer = document.querySelector(".unorderList");
+
+    menuContainer.addEventListener("click", function(e){
+        const btnID = e.target.dataset.id;
+        if(btnID){
+            allMenu.forEach((btn)=>{
+              console.log(btn);
+            btn.classList.remove("active-menu");
+            e.target.classList.add("active-menu");
+            // console.log(e.target.classList);
+        });
+        }
+        
+    });
+
+// end active menu
+
+
+
 // number counter section
 
 function animateValue(obj, start, end, duration) {
@@ -90,3 +112,5 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //end swiper slide
+
+

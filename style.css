@@ -74,12 +74,12 @@ body {
 .d-lg-block i {
   padding-right: 10px;
 }
-nav > ul > li {
+.unorderList li{
   white-space: nowrap;
   padding: 8px 0 3px 20px;
   position: relative;
 }
-nav li a::after {
+.unorderList li a::before {
   content: "";
   position: absolute;
   display: block;
@@ -90,27 +90,38 @@ nav li a::after {
   bottom: 0;
   left: 0;
 }
-.hover li a:hover {
-  color: #1977cc !important;
-}
-
-nav ul li a:hover::after {
-  color: #1977cc;
+.unorderList li a:hover::before {
   width: 100%;
 }
-ul a {
+.unorderList li a{
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
-  color: #2c4964;
   white-space: nowrap;
   padding: 5px 3px;
+  color: #000;
 }
-ul a:hover {
+.unorderList li a:hover{
   color: #1977cc;
 }
+.active-menu{
+  color: #1977cc !important;
+}
+.active-menu::after {
+    content: "";
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    background-color: #1977cc;
+    
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
 .apt-btn {
   margin-left: 24px;
   text-decoration: none;
@@ -155,6 +166,12 @@ div svg {
   height: 35px;
 }
 @media (max-width: 991px) {
+  .unorderList li a:hover::before {
+    width: 0;
+  }
+  .active-menu::after {
+    width: 0;
+  }
   .humbergur {
     display: block;
     border: none;
@@ -212,7 +229,6 @@ section {
   overflow: hidden;
 }
 a {
-  color: #1977cc;
   text-decoration: none;
 }
 .section-bg {
