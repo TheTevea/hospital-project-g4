@@ -388,7 +388,7 @@ a {
 }
 
 .about .video-box {
-  background: url("image/about.jpg") center center no-repeat;
+  background: url("images/about/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
