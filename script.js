@@ -49,18 +49,20 @@ function closeFunction() {
 
 // scrolling header
 
-const navbar = document.getElementById("topbar");
+const navbar = document.getElementById("top-header");
 const header = document.getElementById("header");
-window.addEventListener("scroll", checkHeight);
-function checkHeight() {
-  if (window.scrollY > 100) {
-    header.classList.add("header-scrolled");
-    navbar.classList.add("topbar-scrolled");
-  } else {
-    header.classList.remove("header-scrolled");
-    navbar.classList.remove("topbar-scrolled");
+
+window.addEventListener('scroll', checkHeight)
+  function checkHeight(){
+    if(window.scrollY > 200){
+      header.classList.add("header-scrolled");
+      navbar.classList.add("topbar-scrolled");
+    }else{
+      header.classList.remove("header-scrolled");
+      navbar.classList.remove("topbar-scrolled");
+    }
   }
-}
+
 
 // slide section 
 

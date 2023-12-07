@@ -20,7 +20,7 @@ body {
 .hotline span {
   font-size: 0.9rem;
 }
-#topbar {
+#top-header {
   z-index: 3;
   transition: all 0.5s;
 }
@@ -195,7 +195,7 @@ div svg {
 /* hero section */
 
 .hero {
-    background: url("./images/hero-bg.jpg") top center;
+    background: url("./images/banner/hero-bg.jpg") top center;
     z-index: 0;
     width: 100%;
     height: 90vh;
@@ -687,11 +687,6 @@ a {
 
 /* ------------------ all headers text section  ------------------  */
 
-.header {
-  position: relative;
-  color: #2c4964;
-  padding: 10px 0;
-}
 .header::before {
   content: "";
   position: absolute;
