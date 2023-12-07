@@ -20,19 +20,6 @@
         //     listItem[a].style.display="none";
         // }
     // });
-   
-    btnOpen.addEventListener('click', ()=>{
-    navMobile.style.display = "block";
-    btnClose.style.display = "block";
-    });
 
-    btnClose.addEventListener('click', closeFunction);
-
-
-    function closeFunction() {
-        navMobile.style.display = "none";
-        btnClose.style.display = "none";
-    }
-  
-
-
+      
+      
