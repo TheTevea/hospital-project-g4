@@ -1278,3 +1278,34 @@ a {
   text-decoration: none;
 
 }
+
+
+/* top button */
+
+.button-top i{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  background-color: #1977cc;
+  padding: 11.33px 13px;
+  font-size: 1.5rem;
+  border-radius: 3px ;
+  display: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s;
+  animation: topbutton .8s forwards;
+  z-index: 5;
+}
+
+@keyframes topbutton {
+  from {bottom: 70%;}
+  to {bottom: 10px;}
+}
+
+.button-top i:hover{
+  color: rgb(160, 147, 147);
+  background-color: #1865a8;
+}
+
