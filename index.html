@@ -56,13 +56,13 @@
         <a href="index.html" class="text-decoration-none">MDF</a>
       </div>
       <nav class="navbar order-lg-0 d-lg-block navbar-mobile" style="flex-wrap: nowrap">
-        <ul class="hover list-unstyled d-flex m-0 p-0 align-items-center unorderList">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Service</a></li>
-          <li><a href="#department">Department</a></li>
-          <li><a href="#doctors">Doctor</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="unorderList list-unstyled d-flex m-0 p-0 align-items-center">
+         <li><a class="active-menu" data-id="home" href="#">Home</a></li>
+          <li><a data-id="about" href="#about">About</a></li>
+          <li><a data-id="service" href="#service">Service</a></li>
+          <li><a data-id="department" href="#departments">Department</a></li>
+          <li><a data-id="doctor" href="#doctors">Doctor</a></li>
+          <li><a data-id="contact" href="#contact">Contact</a></li>
         </ul>
       </nav>
       <a class="apt-btn" href="#appointment">
@@ -208,7 +208,7 @@
     </div>
   </section>
   <!-- start count section -->
-  <section id="counts" class="counts">
+  <section id="service" class="counts">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -528,7 +528,7 @@
   </section>
   <!-- End Departments Section -->
   <!--  ------------------ doctor ------------------  -->
-  <section id="doctors">
+  <section id="doctors" class="doctor">
     <div class="container">
 
       <!-- header -->
@@ -546,7 +546,7 @@
       <div class="row row-cols-1 row-cols-lg-2 mb-3">
         <!-- card item -->
         <div class="col mb-4">
-          <div class="card border-0 shadow-lg">
+          <div class="card border-0">
             <div class="d-flex align-items-start p-4 doctor-card ">
               <div
                 class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -575,7 +575,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card border-0 shadow-lg">
+          <div class="card border-0">
             <div class="d-flex align-items-start p-4 doctor-card ">
               <div
                 class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -603,7 +603,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card border-0 shadow-lg">
+          <div class="card border-0">
             <div class="d-flex align-items-start p-4 doctor-card ">
               <div
                 class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -631,7 +631,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card border-0 shadow-lg">
+          <div class="card border-0">
             <div class="d-flex align-items-start p-4 doctor-card ">
               <div
                 class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -1011,79 +1011,81 @@
   </section>
   <!-- End Contact Section -->
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+<footer id="footer">
 
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
 
-                <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>MDF</h3>
-                    <p>
-                        A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
-                    </p>
-                </div>
+              <div class="col-lg-3 col-md-6 footer-contact">
+                  <h3>MDF</h3>
+                  <p>
+                      A108 Adam Street <br> New York, NY 535022<br> United States <br><br>
+                      <strong>Phone:</strong> +1 5589 55488 55<br>
+                      <strong>Email:</strong> info@example.com<br>
+                  </p>
+              </div>
 
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
+              <div class="col-lg-2 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                  </ul>
+              </div>
 
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Services</h4>
+                  <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                  </ul>
+              </div>
 
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Join Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-                </div>
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                  <h4>Join Our Newsletter</h4>
+                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                  <form action="" method="post">
+                      <input type="email" name="email"><input type="submit" value="Subscribe">
+                  </form>
+              </div>
 
-            </div>
-        </div>
-    </div>
+          </div>
+      </div>
+  </div>
 
-    <div class="container d-md-flex py-4">
+  <div class="container d-md-flex py-4">
 
-        <div class="me-md-auto text-center text-md-start">
-            <div class="copyright">
-                &copy; Copyright <strong><span>MDF</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-    </div>
+      <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+              <strong><span>Kilo </span></strong>Project
+          </div>
+          <div class="credits">
+              Only for <a href="#!">Education</a>
+          </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+  </div>
 </footer>
 <!-- End Footer -->
+
+<!-- top button -->
+<div class="button-top">
+  <a href="#" id="top-btn"><i class="fa-solid fa-angle-up"></i></a>
+</div>
+
 
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/51294d6610.js" crossorigin="anonymous"></script>
