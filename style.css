@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
 /* top header section */
 
 .hotline i {
@@ -36,7 +36,6 @@ body {
 .topbar-scrolled {
   top: -40px;
 }
-
 
 .logo a {
   font-size: 2rem;
