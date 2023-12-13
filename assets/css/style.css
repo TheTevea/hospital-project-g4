@@ -211,7 +211,7 @@ div svg {
 /* hero section */
 
 .hero {
-    background: url("./images/banner/hero-bg.jpg") top center;
+    background: url("/assets/images/banner/hero-bg.jpg") top center;
     z-index: 0;
     width: 100%;
     height: 90vh;
@@ -376,7 +376,7 @@ a {
 }
 
 .about .video-box {
-  background: url("images/about/about.jpg") center center no-repeat;
+  background: url("assets/images/about/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
