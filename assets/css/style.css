@@ -30,6 +30,10 @@ body {
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
   top: 43px;
 }
+
+@media (max-width: 590px) {
+  .header { top: 35px ;}
+}
 .header-scrolled {
   top: 0;
 }
@@ -164,6 +168,7 @@ div svg {
   width: 35px;
   height: 35px;
 }
+
 @media (max-width: 991px) {
   .unorderList li a:hover::before {
     width: 0;
