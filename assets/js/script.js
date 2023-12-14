@@ -68,8 +68,8 @@ function closeFunction() {
 const navbar = document.getElementById("top-header");
 const header = document.getElementById("header");
 
-window.addEventListener("scroll", checkHeight);
-function checkHeight() {
+window.addEventListener("scroll", checkHeightHeader);
+function checkHeightHeader() {
   if (window.scrollY > 200) {
     header.classList.add("header-scrolled");
     navbar.classList.add("topbar-scrolled");

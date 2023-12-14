@@ -376,7 +376,7 @@ a {
 }
 
 .about .video-box {
-  background: url("assets/images/about/about.jpg") center center no-repeat;
+  background: url("/assets/images/about/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1052,6 +1052,9 @@ a {
     flex-direction: column;
     padding: 30px;
     margin: 15px;
+  }
+  .testimonial-container{
+    margin: 0;
   }
 }
 
